@@ -1,0 +1,29 @@
+{
+  "name": "node-dockerfile-parser",
+  "version": "1.0.0",
+  "description": "this program parses a dockerfile ane return a json file",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "keywords": [
+    "node",
+    "parser",
+    "json",
+    "dockerfile"
+  ],
+  "author": "cicciog",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "docker-file-parser": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/tape": "^4.13.0",
+    "mocha": "^7.1.2"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
